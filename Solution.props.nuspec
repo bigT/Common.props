@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package>
+  <metadata minClientVersion="2.7">
+    <id>Solution.props</id>
+    <version>1.0</version>
+    <authors>Taras Alenin</authors>
+    <owners>Taras Alenin</owners>
+    <licenseUrl>https://todo/license.txt</licenseUrl>
+    <projectUrl>https://todo</projectUrl>
+    <iconUrl>https://todo</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <developmentDependency>true</developmentDependency>
+    <description>
+      Enables setting MSBuild properties at a solution level. A common
+      .props file is added to all projects in the solution that have
+      installed the package. 
+    </description>
+    <summary>
+      Enables setting MSBuild properties at a solution level. A common
+      .props file is added to all projects in the solution that have
+      installed the package. 
+    </summary>
+    <releaseNotes>
+    </releaseNotes>
+    <copyright>Copyright (c) Taras Alenin (taras.alenin@gmail.com)</copyright>
+    <language>en-US</language>
+  </metadata>
+  <files>
+    <file src="license.txt" target="license.txt" />
+    <file src="build\**\*.*" target="build" />
+    <file src="tools\**\*.*" target="tools" />
+  </files>
+</package>
