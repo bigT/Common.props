@@ -5,20 +5,20 @@
     <version>1.0</version>
     <authors>Taras Alenin</authors>
     <owners>Taras Alenin</owners>
-    <licenseUrl>https://todo/license.txt</licenseUrl>
-    <projectUrl>https://todo</projectUrl>
-    <iconUrl>https://todo</iconUrl>
+    <licenseUrl>https://github.com/bigT/Common.props/blob/master/license.txt</licenseUrl>
+    <projectUrl>https://github.com/bigT/Common.props</projectUrl>
+    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>
       Enables setting MSBuild properties at a solution level. A common
       .props file is added to all projects in the solution that have
-      installed the package. 
+      installed this NuGet package.
     </description>
     <summary>
       Enables setting MSBuild properties at a solution level. A common
       .props file is added to all projects in the solution that have
-      installed the package. 
+      installed the package.
     </summary>
     <releaseNotes>
     </releaseNotes>
