@@ -2,12 +2,12 @@
 <package>
   <metadata minClientVersion="2.7">
     <id>Solution.props</id>
+    <title>Common Solution Properties</title>
     <version>1.0</version>
     <authors>Taras Alenin</authors>
     <owners>Taras Alenin</owners>
     <licenseUrl>https://github.com/bigT/Common.props/blob/master/license.txt</licenseUrl>
     <projectUrl>https://github.com/bigT/Common.props</projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>
