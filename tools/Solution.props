@@ -3,7 +3,7 @@
   <PropertyGroup>
     <!--
          Define common solution properties. The properties will be add to all
-         projects that have Common.MSBuild.prop package installed.
+         projects that have installed `Install-Package Solution.prop` package.
 
          E.g.
          <StyleCopTreatErrorsAsWarnings>false</StyleCopTreatErrorsAsWarnings>
