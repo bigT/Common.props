@@ -11,14 +11,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>
-      Enables setting MSBuild properties at a solution level. A common
-      .props file is added to all projects in the solution that have
-      installed this NuGet package.
+Introduces a Solutions.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
+
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Solution.props take immediate effect.
     </description>
     <summary>
-      Enables setting MSBuild properties at a solution level. A common
-      .props file is added to all projects in the solution that have
-      installed the package.
+Introduces a Solutions.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
+
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Solution.props take immediate effect.
     </summary>
     <releaseNotes>
     </releaseNotes>
