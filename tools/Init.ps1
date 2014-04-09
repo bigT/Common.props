@@ -1,10 +1,10 @@
 param($installPath, $toolsPath, $package, $project)
 
-$props = "Solution.props"
+$props = "Common.props"
 $template = "$toolsPath\$props"
 $destination = "$installPath\..\.."
 
 if(-Not(Test-Path "$destination\$props")) {
-    Write-Host "Creation solution propertis."
+    Write-Host "Creating common solution propertis."
     Copy-Item $template -Destination $destination
 }

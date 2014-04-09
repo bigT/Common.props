@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <metadata minClientVersion="2.7">
-    <id>Solution.props</id>
+    <id>Common.props</id>
     <title>Common Solution Properties</title>
     <version>1.0</version>
     <authors>Taras Alenin</authors>
@@ -11,14 +11,14 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <developmentDependency>true</developmentDependency>
     <description>
-Introduces a Solutions.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
+Introduces a Common.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
 
-Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Solution.props take immediate effect.
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Common.props take immediate effect.
     </description>
     <summary>
-Introduces a Solutions.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
+Introduces a Common.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
 
-Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Solution.props take immediate effect.
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Common.props take immediate effect.
     </summary>
     <releaseNotes>
     </releaseNotes>

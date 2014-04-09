@@ -1,9 +1,9 @@
 # Common.props
 
 
-Introduces a Solutions.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
+Introduces a Common.props properties file at a solution level. Adding this package to multiple projects in the solution allows sharing of common properties across projects. 
 
-Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Solution.props take immediate effect.
+Tedious task of manually editing individual project files is now replaced by package installation. Changes made to the Common.props take immediate effect.
 
 Here is a sample solution level properties file that would force StyleCop warning to be treated as errors at build time:
 
